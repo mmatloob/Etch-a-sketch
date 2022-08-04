@@ -1,0 +1,8 @@
+#grid_1{
+    border: solid black 2px;
+    text-align: center;
+}
+
+#grid_1 div {
+    padding: 10px;
+}
