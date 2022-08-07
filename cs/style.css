@@ -1,8 +1,44 @@
+body{
+    background-color: beige;
+}
+
+.parent_div {
+    display: flex;
+    justify-content: center;
+    align-self: cetner;
+}
+
+.detials{
+    color: gray;
+    font-size: xx-large;
+    font-weight: bolder;
+    align-self: center;
+}
+
+
+#sizeofgrid{
+    background-color: lightsalmon;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+
+.subtitle {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
 #grid_1{
     border: solid black 2px;
-    text-align: center;
+    display: flex;
+    align-self: flex-end;
+    width: 960px;
+    height: 460px;
 }
 
 #grid_1 div {
-    padding: 10px;
+    width: auto;
+    height: auto;
 }
